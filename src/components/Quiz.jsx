@@ -72,7 +72,7 @@ export default function Quiz() {
                 <button className='try-btn text-xl px-3 py-1 rounded-md' onClick={()=> {nextQuestionAns();setStop(0);setCount(0);}}>Try Again The Quiz</button>
             </fieldset>: ""}
 
-            <div><a href="/"><button className='exit-btn'>Home Page</button></a></div>
+            <div><a href="/QuizApp"><button className='exit-btn'>Home Page</button></a></div>
         </div>
     )
 }
